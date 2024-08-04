@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"image"
 	"math"
 )
 
@@ -27,7 +26,7 @@ func (c *circle) area() float64 {
 	return math.Pi * c.radius * c.radius
 }
 
-func getArea(s shape) float64{
+func getArea(s shape) float64 {
 	return s.area()
 }
 
