@@ -8,7 +8,7 @@ func main() {
 	welcome := "welcome to the user input"
 	fmt.Println(welcome)
 
-	// techWorldwithNana
+	// techWorldwithNana.
 
 	// var username string
 	// fmt.Println("Type ur name :) ")
