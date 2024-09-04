@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 const logicToken string = "hello world !!" // public
-
 // default value and alias
 func main() {
 	var anothervariable int
