@@ -14,7 +14,6 @@ func main() {
 	// parsing (parsing - extract some info)
 
 	result, _ := url.Parse(myurl) // url is lib
-
 	fmt.Println(result.Scheme)
 	fmt.Println(result.Port())
 	fmt.Println(result.Path)
