@@ -18,7 +18,7 @@ func main() {
 	}
 
 	fmt.Printf("The type of the response is %T\n", response)
-	defer response.Body.Close() // caller's responsibility to close connection
+	defer response.Body.Close()  // caller's responsibility to close connection
 
 	databytes, err := ioutil.ReadAll(response.Body) // ioutil majorly use for reading
 
