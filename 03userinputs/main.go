@@ -29,4 +29,5 @@ func main() {
 	fmt.Printf("Type of this rating is %T", input)
 	fmt.Println("")
 
+
 }
