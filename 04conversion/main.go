@@ -22,7 +22,8 @@ func main() {
 	// strings.TrimSpace() to trimming up the space that is coming up by hitting enter
 	if err != nil {
 		fmt.Println(err)
-	} else {
+	} 
+	else {
 		fmt.Println("we have added:", numRating+1)
 	}
 }
