@@ -12,7 +12,6 @@ func main() {
 	fruits[0] = "apple"
 	fruits[1] = "mango"
 	fruits[3] = "chicku"
-
 	fmt.Println(fruits)  // u can observer the uneven space in the output
 	fmt.Println(len(fruits))
 
