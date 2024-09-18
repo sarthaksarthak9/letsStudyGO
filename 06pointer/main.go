@@ -10,7 +10,6 @@ func main() {
 
 	myNumber := 23;
 	var ptr = &myNumber // whenever & it mean referencing
-
 	fmt.Println("the pointer: ", ptr)  // ptr is the pointer
 	
 	fmt.Println("the pointer value: ", *ptr)
