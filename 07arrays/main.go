@@ -9,7 +9,6 @@ func main() {
 	fmt.Println("Welcome lets learn array in golang")
 
 	var fruits [4]string
-
 	fruits[0] = "apple"
 	fruits[1] = "mango"
 	fruits[3] = "chicku"
