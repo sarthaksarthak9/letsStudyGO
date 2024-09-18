@@ -12,6 +12,7 @@ func main() {
 	var ptr = &myNumber // whenever & it mean referencing
 
 	fmt.Println("the pointer: ", ptr)  // ptr is the pointer
+	
 	fmt.Println("the pointer value: ", *ptr)
 
 	*ptr = *ptr + 2;
