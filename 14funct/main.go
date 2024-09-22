@@ -8,7 +8,6 @@ func main() {
 
 	result := adder(1, 2)
 	fmt.Println("The result is ", result)
-
 	proResult, myMess := proAdder(2,3,4,5,6) // or we can proResult, _
 	fmt.Println("The proRes is", proResult)
 	fmt.Println("The message", myMess)
