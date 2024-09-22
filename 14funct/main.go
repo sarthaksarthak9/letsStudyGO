@@ -6,7 +6,7 @@ func main() {
 	greeter()
 	fmt.Println("welcome to functions in go")
 
-	result := adder(1, 2)
+	result := adder(1, 2
 	fmt.Println("The result is ", result)
 
 	proResult, myMess := proAdder(2,3,4,5,6) // or we can proResult, _
