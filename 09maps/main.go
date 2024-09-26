@@ -6,6 +6,7 @@ import (
 
 
 func main() {
+	
 	fmt.Println("Map in Golang")
 
 	language := make(map[string]string)
