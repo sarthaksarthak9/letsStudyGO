@@ -9,6 +9,7 @@ import (
 func main() {
 	fmt.Println("Welcome to files in GoLang")
 	content := "This should go in a file - LearCodeOnline.in"
+	
 
 	file, err := os.Create("./mylcogofile.txt") // os is a package for file handling in go
 
