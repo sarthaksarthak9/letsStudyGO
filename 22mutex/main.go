@@ -37,6 +37,7 @@ func main() {
 	wg.Wait() 
 }
 
+
 func getStatusCode(endpoint string) {
 	defer wg.Done()
 
