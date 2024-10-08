@@ -16,6 +16,7 @@ import (
 var wg sync.WaitGroup // these are pointers
 var signals = []string{"test"}
 
+
 var mut sync.Mutex // pointer
 
 func main() {
