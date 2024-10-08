@@ -1,5 +1,4 @@
 // use mutex where multiple gorountine access a single memory.
-
 // mutex provide a lock over the memory.
 // readwrite Mutex - anyone can read but not write. If writing not complete don't allow to read.
 // concurrency - you have multiple task and you do it one at a time. You can stop and continue latter.
